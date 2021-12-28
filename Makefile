@@ -51,3 +51,10 @@ all: $(EXE)
 
 $(EXE): $(OBJS)
 	$(CXX) -o $@ $^ $(CXXFLAGS)
+
+# Create dirs if they don't exist
+
+$(OBJS): | $(OBJDIR)
+
+$(OBJDIR):
+	mkdir "$(BUILD_DIR)" "$(OBJDIR)"
