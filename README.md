@@ -4,7 +4,7 @@ A minimal template for make/vscode/cpp.
 
 Install `gcc` and `g++`
 
-e.g. https://code.visualstudio.com/docs/cpp/config-mingw
+e.g. prerequisites at https://code.visualstudio.com/docs/cpp/config-mingw
 
 Install `make`
 

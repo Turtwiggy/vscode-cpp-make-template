@@ -1,0 +1,368 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+Build complete for: build/example.exe
+# GNU Make 4.3
+# Built for Windows32
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Tue Dec 28 21:45:34 2021
+
+# Variables
+
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+SYSTEMDRIVE = C:
+# environment
+PYENV = C:\Users\m-p-b\.pyenv\pyenv-win\
+# environment
+LC_ALL = C
+# environment
+_MSYS2_BASH = C:\tools\msys64\usr\bin\bash.exe
+# makefile (from 'Makefile', line 10)
+OBJDIR = build-objs
+# environment
+USERPROFILE = C:\Users\m-p-b
+# environment
+LOCALAPPDATA = C:\Users\m-p-b\AppData\Local
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-ba7b2e06-d44b-4416-a64e-02d95956e817-sock
+# environment
+VSCODE_CWD = C:\Windows\system32
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+SYSTEMROOT = C:\Windows
+# environment
+PROCESSOR_LEVEL = 23
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_16976_JABPNZQRFGTXITFO
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\m-p-b\AppData\Roaming\Code\CachedData\899d46d82c4c95423fb7e10e68eba52050e30ba3
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = C:\Users\m-p-b\AppData\Local\Temp
+# default
+.INCLUDE_DIRS = .
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# makefile
+MAKEFLAGS = pqrR
+# environment
+ONEDRIVE = C:\Users\m-p-b\OneDrive
+# environment
+ANDROID_NDK_HOME = C:\Users\m-p-b\AppData\Local\Android\Sdk\ndk\22.1.7171670
+# makefile
+CURDIR := c:/Programming/vscode-cpp-make-template
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 16976
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# makefile (from 'Makefile', line 13)
+PROJECT_DIR = src
+# automatic
+*F = $(notdir $*)
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
+# environment
+PM_PACKAGES_ROOT = C:\packman-repo
+# default
+MAKE_HOST := Windows32
+# environment
+ANDROID_HOME = C:\Users\m-p-b\AppData\Local\Android\Sdk
+# makefile (from 'Makefile', line 34)
+OBJS = $(addprefix $(OBJDIR)/,$(addsuffix .o, $(basename $(notdir $(SOURCES)))))
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := C:/Software/Git/bin/sh.exe
+# environment
+HOMEPATH = \Users\m-p-b
+# default
+MAKECMDGOALS := all
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# environment
+WINDIR = C:\Windows
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python38\Scripts\;C:\Python38\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Software\Git\cmd;C:\Software\CMake\bin;C:\Software\Amazon\AWSCLIV2\;C:\Software\nodejs\;C:\ProgramData\chocolatey\bin;C:\Software\PuTTY\;C:\Android;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Software\LLVM\bin;C:\Users\m-p-b\.cargo\bin;C:\Users\m-p-b\AppData\Local\Microsoft\WindowsApps;C:\Software\Microsoft VS Code\bin;C:\Software\Git\bin;C:\Software\Git LFS\;C:\Software\Amazon\SAM\bin;C:\Users\m-p-b\AppData\Roaming\npm;C:\Tools;C:\Users\m-p-b\AppData\Local\Android\Sdk\platform-tools;C:\Users\m-p-b\AppData\Local\Android\Sdk\tools;C:\Users\m-p-b\AppData\Local\Android\Sdk\ndk\22.1.7171670;C:\Program Files\Java\jdk-15.0.1\bin;C:\Users\m-p-b\AppData\Local\Android\Sdk\build-tools\30.0.2;C:\Users\m-p-b\.pyenv\pyenv-win\bin;C:\Users\m-p-b\.pyenv\pyenv-win\shims;C:\Users\m-p-b\AppData\Roaming\cabal\bin;C:\Software\msys64\mingw64\bin;C:\Programming\emsdk\upstream\emscripten
+# environment
+COMPUTERNAME = DESKTOP-1O89KE7
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+_MSYS2_PREFIX = x86_64
+# environment
+PROMPT = $P$G
+# environment
+CHOCOLATEYLASTPATHUPDATE = 132795809742899440
+# environment
+LOGONSERVER = \\DESKTOP-1O89KE7
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = m-p-b
+# environment
+ANDROID_SDK_HOME = C:\Android
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERDOMAIN = DESKTOP-1O89KE7
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+OS = Windows_NT
+# environment
+__COMPAT_LAYER = RunAsAdmin
+# makefile (from 'Makefile', line 11)
+EXE = build/example.exe
+# makefile
+.DEFAULT_GOAL := all
+# default
+MAKE_VERSION := 4.3
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-1O89KE7
+# environment
+NUMBER_OF_PROCESSORS = 12
+# environment
+PUBLIC = C:\Users\Public
+# environment
+APPDATA = C:\Users\m-p-b\AppData\Roaming
+# environment
+HOMEDRIVE = C:
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# makefile (from 'Makefile', line 9)
+BUILD_DIR = build
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+G3D = C:\Programming\G3D
+# environment
+GTEST_OUTPUT = C:\Programming\FightingGame\reports\
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = C:\Users\m-p-b\AppData\Local\Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\538dcc20670fc16bd02d99cd1bbd8649-1.63.2-main-sock
+# default
+.RECIPEPREFIX := 
+# environment
+G3D10DATA = C:\Programming\G3D\G3D10\data-files;C:\Programming\G3D\data10\common;C:\Programming\G3D\data10\game;C:\Programming\G3D\data10\research
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# makefile (from 'Makefile', line 26)
+CXXFLAGS = -g -Wall -std=c++17 -Wformat -Os -I$(PROJECT_DIR)
+# makefile (from 'Makefile', line 15)
+DEBUG = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+# environment
+PROCESSOR_REVISION = 0101
+# makefile (from 'Makefile', line 6)
+CXX = g++
+# makefile (from 'Makefile', line 5)
+CC = gcc
+# makefile (from 'Makefile', line 32)
+SOURCES = $(PROJECT_DIR)/main.cpp
+# environment
+CHOCOLATEYTOOLSLOCATION = C:\tools
+# environment
+PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD
+# variable set hash-table stats:
+# Load=117/1024=11%, Rehash=0, Collisions=17/165=10%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# src (key c:/Programming/vscode-cpp-make-template/src, mtime 1640725681): 3 files, no imp 
+ossibilities so far.
+# . (key c:/Programming/vscode-cpp-make-template, mtime 1640727660): 11 files, no impossibilities.
+
+# 14 files, no impossibilities in 2 directories.
+
+# Implicit Rules
+
+build-objs/%.o: src/%.cpp
+#  recipe to execute (from 'Makefile', line 47):
+	$(CXX) $(CXXFLAGS) -c $< -o $@
+
+# 1 implicit rules, 0 (0.0%) terminal.
+# Files
+
+build/example.exe: build-objs/main.o
+#  Implicit rule search has not been done.
+#  Last modified 2021-12-28 21:41:00
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 53):
+	$(CXX) -o $@ $^ $(CXXFLAGS)
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-12-28 21:41:18
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/main.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2021-12-28 21:28:53
+#  File has been updated.
+#  Successfully updated.
+
+build-objs/main.o: src/main.cpp | build-objs
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'main'
+#  Last modified 2021-12-28 21:41:00
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 47):
+	$(CXX) $(CXXFLAGS) -c $< -o $@
+
+build-objs:
+#  Implicit rule search has not been done.
+#  Last modified 2021-12-28 21:41:00
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 60):
+	mkdir "$(BUILD_DIR)" "$(OBJDIR)"
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: build/example.exe
+#  Command line target.
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Last modified -4
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := all
+# automatic
+# * := 
+# automatic
+# < := build/example.exe
+# automatic
+# + := build/example.exe
+# automatic
+# % := 
+# automatic
+# ^ := build/example.exe
+# automatic
+# ? := build/example.exe
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/9=11%
+#  recipe to execute (from 'Makefile', line 50):
+	$(info Build complete for: $(EXE))
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=8/1024=1%, Rehash=0, Collisions=0/29=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 21 / storage = 205 B / avg = 9 B
+# current buf: size = 8174 B / used = 205 B / count = 21 / avg = 9 B
+
+# strcache performance: lookups = 39 / hit rate = 46%
+# hash-table stats:
+# Load=21/8192=0%, Rehash=0, Collisions=0/39=0%
+# Finished Make data base on Tue Dec 28 21:45:34 2021
+
+ 
