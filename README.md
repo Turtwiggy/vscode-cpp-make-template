@@ -12,7 +12,7 @@ e.g. `choco install make`
 
 ## Build and Run
 
-Build: CTRL+SHIFT+B
+Build: CTRL+SHIFT+B (see executed `make` command in .vscode/tasks.json)
 
 Run: F5
 

@@ -7,12 +7,12 @@ CXX = g++
 
 # build dirs
 BUILD_DIR = build
-OBJDIR = build-objs
+OBJ_DIR = build-objs
 EXE = build/example.exe# This should match the launch.json output
 
 PROJECT_DIR = src
 
-DEBUG = 1
+DEBUG = 1#could be env variable? e.g. DEBUG = $(DEBUG)
 CXXFLAGS =
 
 #
@@ -22,7 +22,12 @@ CXXFLAGS =
 ifeq ($(DEBUG), 1)
 	CXXFLAGS += -g -Wall
 endif
-CXXFLAGS += -std=c++17 -Wformat -Os
+CXXFLAGS += -std=c++17 -Wformat
+# CXXFLAGS += -O2
+
+#
+# INCLUDE DIRS
+#
 CXXFLAGS += -I$(PROJECT_DIR)
 
 #
@@ -31,7 +36,7 @@ CXXFLAGS += -I$(PROJECT_DIR)
 
 SOURCES = $(PROJECT_DIR)/main.cpp
 
-OBJS = $(addprefix $(OBJDIR)/,$(addsuffix .o, $(basename $(notdir $(SOURCES)))))
+OBJS = $(addprefix $(OBJ_DIR)/,$(addsuffix .o, $(basename $(notdir $(SOURCES)))))
 
 #
 # BUILD RULES
@@ -43,7 +48,7 @@ OBJS = $(addprefix $(OBJDIR)/,$(addsuffix .o, $(basename $(notdir $(SOURCES)))))
 # $^ is all the inputs
 # $(outputs) all the outputs
 
-$(OBJDIR)/%.o:$(PROJECT_DIR)/%.cpp
+$(OBJ_DIR)/%.o:$(PROJECT_DIR)/%.cpp
 	$(CXX) $(CXXFLAGS) -c $< -o $@
 
 all: $(EXE)
@@ -54,7 +59,7 @@ $(EXE): $(OBJS)
 
 # Create dirs if they don't exist
 
-$(OBJS): | $(OBJDIR)
+$(OBJS): | $(OBJ_DIR)
 
-$(OBJDIR):
-	mkdir "$(BUILD_DIR)" "$(OBJDIR)"
+$(OBJ_DIR):
+	mkdir "$(BUILD_DIR)" "$(OBJ_DIR)"
